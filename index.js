@@ -35,14 +35,14 @@ $(document).ready(function () {
 
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: ["Back-End Developer", "Daydreamer"],
+    strings: ["Full-stack web Developer", "man with Creative vision"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Back-End Developer", "Daydreamer"],
+    strings: ["Full-stack web Developer", "man with Creative vision"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -79,7 +79,7 @@ let drive = document
 function openDrive() {
   window.open(
     (href =
-      "https://drive.google.com/file/d/1WcjOeOXagVCAZGU0clR-EWgzurTKobRV/view?usp=sharing")
+      "https://drive.google.com/file/d/1OFWCSQU2LcNJfWbu8yG0XdeD0YS3Nxpl/view?usp=sharing")
   );
 }
 
@@ -90,6 +90,6 @@ let drive2 = document
 function openDrive2() {
   window.open(
     (href =
-      "https://drive.google.com/file/d/1WcjOeOXagVCAZGU0clR-EWgzurTKobRV/view?usp=sharing")
+      "https://drive.google.com/file/d/1OFWCSQU2LcNJfWbu8yG0XdeD0YS3Nxpl/view?usp=sharing")
   );
 }
