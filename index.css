@@ -196,7 +196,7 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url(./images/background.jpg) no-repeat center;
+  background: url(./images/cover_img.avif) no-repeat center;
   background-color: #111;
   height: 50vh;
   color: #fff;
@@ -281,8 +281,8 @@ section .title::after {
 }
 
 #about .about-content .left img {
-  height: 300px;
-  width: 325px;
+  height: 270px;
+  width: 300px;
   /* object-fit: cover; */
   border-radius: 50%;
 
@@ -505,7 +505,7 @@ section .title::after {
 }
 
 .project .carousel .project-card:hover {
-  background: #2253c8;
+  background: #414141;
   color: white;
   /* change */
 }
@@ -650,8 +650,16 @@ section .title::after {
 
 /* contact section styling */
 
+#contact{
+  /* background-color: rgb(17, 17, 17);  */
+  /* color: white; */
+  background: url(./images/about_image.gif) no-repeat center;
+  background-size: cover;
+  
+}
+
 .contact .title::before {
-  width: 240px;
+  width: 240px;;
 }
 
 .contact .contact-content .column {
@@ -662,6 +670,7 @@ section .title::after {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
+
 }
 
 .contact .contact-content .left p {
@@ -695,7 +704,7 @@ section .title::after {
 .contact .contact-content .info a:hover,
 .contact .contact-content .info a:link {
   text-decoration: none;
-  color: #111;
+  color: black;
 }
 
 .contact .contact-content .info .sub-title {
