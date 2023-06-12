@@ -410,6 +410,7 @@ section .title::after {
   /* border: 2px solid black; */
   height: 60vh;
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -502,6 +503,7 @@ section .title::after {
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
+  /* height: 42rem; */
 }
 
 .project .carousel .project-card:hover {
@@ -533,7 +535,7 @@ section .title::after {
   justify-content: space-between;
   width: 100%;
   height: 45px;
-  margin-top: 5%;
+  margin-top: 10%;
   /* border: 2px solid wheat; */
 }
 
@@ -543,6 +545,7 @@ section .title::after {
   border: 1px solid white;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .demo-div {
@@ -551,17 +554,19 @@ section .title::after {
   border: 1px solid white;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .project-tech-stack {
-  color: purple;
+  color: gray;
+  margin-top: 10%;
+  text-decoration: none;
 }
 
 .demo-div a,
 .repo-div a,
 .repo-div a:link,
-.demo-div a:link,
-.project-tech-stack {
+.demo-div a:link {
   text-decoration: none;
   color: white;
 }
@@ -640,6 +645,9 @@ section .title::after {
   width: 120px;
   height: 120px;
   text-align: center;
+}
+.skills-card-name{
+  margin-left: 14px;
 }
 
 .react-activity-calendar .title::before {
@@ -1092,5 +1100,40 @@ footer span a:hover {
   .regular #most-lang img {
     width: 85%;
     /* border: 3px solid red; */
+  }
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
   }
 }
