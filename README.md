@@ -17,6 +17,8 @@ Let me tell you a little about my journey in Web Development.
 
 ---
 
+## 👨‍💻 Contact me <a name = "Contact me"></a>
+
 - [My github](https://github.com/anurag1109)
 - [My linkedIn](https://www.linkedin.com/in/anuragsingh1109)
 - [My RESUME](https://drive.google.com/file/d/1OFWCSQU2LcNJfWbu8yG0XdeD0YS3Nxpl/view?usp=sharing)
