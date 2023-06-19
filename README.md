@@ -17,6 +17,25 @@ Let me tell you a little about my journey in Web Development.
 
 ---
 
+## ⛏️ Technical Skills<a name = "technical_skills"></a>
+
+<h4>FRONTEND-</h4>
+
+<p>-  HTML</p>
+<p>-  CSS</p>
+<p>-  JavaScript</p>
+<p>-  React</p>
+<p>-  Redux</p>
+
+BACKEND-
+
+<p>-  Node.js</p>
+<p>-  Express</p>
+<p>-  MongoDB</p>
+<p>-  MySQL</p>
+
+---
+
 ## 👨‍💻 Contact me <a name = "Contact me"></a>
 
 - [My github](https://github.com/anurag1109)
