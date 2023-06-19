@@ -17,7 +17,7 @@ Let me tell you a little about my journey in Web Development.
 
 ---
 
-## ⛏️ Technical Skills<a name = "technical_skills"></a>
+## 👨‍💻 Technical Skills<a name = "technical_skills"></a>
 
 <h4>FRONTEND-</h4>
 
