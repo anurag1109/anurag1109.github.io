@@ -662,9 +662,8 @@ section .title::after {
 /* contact section styling */
 
 #contact{
-  /* background-color: rgb(17, 17, 17);  */
-  /* color: white; */
-  background: url(./images/about_image.gif) no-repeat center;
+   background-color: rgb(17, 17, 17); 
+   color: white; 
   background-size: cover;
   
 }
@@ -715,7 +714,7 @@ section .title::after {
 .contact .contact-content .info a:hover,
 .contact .contact-content .info a:link {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .contact .contact-content .info .sub-title {
