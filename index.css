@@ -665,6 +665,7 @@ section .title::after {
    background-color: rgb(17, 17, 17); 
    color: white; 
   background-size: cover;
+  position: relative;
   
 }
 
@@ -807,6 +808,33 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+.mailcontainer{
+  width: 99.3vw;
+  height: 106vh;
+  z-index: 1000;
+  background-color: gray;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0
+}
+
+.mail{
+  background-color: white;
+  margin: auto;
+  color: black;
+  width: 50%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  border-radius: 10px;
+}
+
+
+
 /* responsive media query start */
 @media (max-width: 1104px) {
   #about .about-content .left img {
@@ -921,6 +949,7 @@ footer span a:hover {
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
+    
   }
 }
 
